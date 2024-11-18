@@ -3,11 +3,11 @@
 A service that allows adding quotes, generating random stored quotes, and deleting quotes.
 
 ## Setup
-
-1. Copy .env.example to .env file
-2. Add your Postgresql uri to `DATABASE_URL` in the .env file
-3. Install dependencies with `npm install`
-4. Start the app run `npm run start`
+1. Make sure you have PostgreSQL installed and have a Quotes table in the data. The schema is provided in `schema.sql`
+2. Copy .env.example to .env file
+3. Add your Postgresql uri to `DATABASE_URL` in the .env file
+4. Install dependencies with `npm install`
+5. Start the app run `npm run start`
 
 ## Requesting data and Receiving data
 The communication contract is HTTP requests.
