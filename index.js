@@ -25,7 +25,7 @@ app.get('/quotes/random', async (req, res, next) => {
     }
 });
 
-app.post('/quotes', async (req, res) => {
+app.post('/quotes', async (req, res, next) => {
     try {
         const { text } = req.body;
         const result = await pool.query(
